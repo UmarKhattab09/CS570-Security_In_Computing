@@ -1,0 +1,1001 @@
+timestamp,user,ip,query,label
+2025-08-19 15:32:30,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=236;",0
+2025-08-19 15:32:31,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=133;",0
+2025-08-19 15:32:32,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=395;,0
+2025-08-19 15:32:33,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=49;,0
+2025-08-19 15:32:34,admin,192.168.1.10,SELECT * FROM students WHERE id=422;,0
+2025-08-19 15:32:35,teacher,10.0.0.25,SELECT * FROM students WHERE id=359;,0
+2025-08-19 15:32:36,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:32:37,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=461;,0
+2025-08-19 15:32:38,teacher,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:32:39,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (327, 'CS101', 'A');",0
+2025-08-19 15:32:40,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (473, 'CS101', 'A');",0
+2025-08-19 15:32:41,teacher,192.168.1.10,SELECT * FROM students WHERE id=270;,0
+2025-08-19 15:32:42,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:32:43,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=436;,0
+2025-08-19 15:32:44,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=161;,0
+2025-08-19 15:32:45,admin,192.168.1.10,SELECT * FROM students WHERE id=123;,0
+2025-08-19 15:32:46,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=197;,0
+2025-08-19 15:32:47,admin,192.168.1.5,SELECT * FROM students WHERE id=213;,0
+2025-08-19 15:32:48,student,192.168.1.10,SELECT * FROM students WHERE id=317;,0
+2025-08-19 15:32:49,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (301, 'CS101', 'A');",0
+2025-08-19 15:32:50,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=77;,0
+2025-08-19 15:32:51,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=88;,0
+2025-08-19 15:32:52,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=170;,0
+2025-08-19 15:32:53,admin,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:32:54,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=448;,0
+2025-08-19 15:32:55,teacher,10.0.0.25,SELECT * FROM students WHERE id=438;,0
+2025-08-19 15:32:56,admin,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:32:57,teacher,192.168.1.5,SELECT * FROM students WHERE id=476;,0
+2025-08-19 15:32:58,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=387;,0
+2025-08-19 15:32:59,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=56;",0
+2025-08-19 15:33:00,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=410;,0
+2025-08-19 15:33:01,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=33;,0
+2025-08-19 15:33:02,teacher,192.168.1.5,SELECT * FROM students WHERE id=297;,0
+2025-08-19 15:33:03,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=395;,0
+2025-08-19 15:33:04,teacher,192.168.1.5,SELECT * FROM students WHERE id=279;,0
+2025-08-19 15:33:05,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=31;,0
+2025-08-19 15:33:06,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=343;,0
+2025-08-19 15:33:07,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=438;",0
+2025-08-19 15:33:08,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=296;,0
+2025-08-19 15:33:09,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=314;",0
+2025-08-19 15:33:10,student,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:33:11,teacher,10.0.0.25,SELECT * FROM students WHERE id=293;,0
+2025-08-19 15:33:12,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=494;,0
+2025-08-19 15:33:13,admin,192.168.1.10,SELECT * FROM students WHERE id=195;,0
+2025-08-19 15:33:14,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (46, 'CS101', 'A');",0
+2025-08-19 15:33:15,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (99, 'CS101', 'A');",0
+2025-08-19 15:33:16,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (15, 'CS101', 'A');",0
+2025-08-19 15:33:17,teacher,10.0.0.25,SELECT * FROM students WHERE id=342;,0
+2025-08-19 15:33:18,teacher,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:33:19,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=99;,0
+2025-08-19 15:33:20,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (167, 'CS101', 'A');",0
+2025-08-19 15:33:21,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=90;,0
+2025-08-19 15:33:22,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=168;,0
+2025-08-19 15:33:23,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=157;,0
+2025-08-19 15:33:24,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=156;,0
+2025-08-19 15:33:25,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=55;",0
+2025-08-19 15:33:26,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=153;,0
+2025-08-19 15:33:27,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (470, 'CS101', 'A');",0
+2025-08-19 15:33:28,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=45;,0
+2025-08-19 15:33:29,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=430;,0
+2025-08-19 15:33:30,student,192.168.1.10,SELECT * FROM students WHERE id=79;,0
+2025-08-19 15:33:31,teacher,10.0.0.25,SELECT * FROM students WHERE id=387;,0
+2025-08-19 15:33:32,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:33:33,student,10.0.0.25,SELECT * FROM students WHERE id=131;,0
+2025-08-19 15:33:34,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=468;,0
+2025-08-19 15:33:35,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (27, 'CS101', 'A');",0
+2025-08-19 15:33:36,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (112, 'CS101', 'A');",0
+2025-08-19 15:33:37,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (95, 'CS101', 'A');",0
+2025-08-19 15:33:38,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:33:39,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=331;,0
+2025-08-19 15:33:40,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=373;",0
+2025-08-19 15:33:41,student,10.0.0.25,SELECT * FROM students WHERE id=329;,0
+2025-08-19 15:33:42,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=160;,0
+2025-08-19 15:33:43,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=99;,0
+2025-08-19 15:33:44,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=297;",0
+2025-08-19 15:33:45,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (400, 'CS101', 'A');",0
+2025-08-19 15:33:46,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=401;,0
+2025-08-19 15:33:47,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=354;,0
+2025-08-19 15:33:48,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (489, 'CS101', 'A');",0
+2025-08-19 15:33:49,admin,192.168.1.10,SELECT * FROM students WHERE id=485;,0
+2025-08-19 15:33:50,student,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:33:51,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (85, 'CS101', 'A');",0
+2025-08-19 15:33:52,student,10.0.0.25,SELECT * FROM students WHERE id=499;,0
+2025-08-19 15:33:53,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=349;",0
+2025-08-19 15:33:54,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=386;",0
+2025-08-19 15:33:55,admin,192.168.1.5,SELECT * FROM students WHERE id=117;,0
+2025-08-19 15:33:56,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=315;,0
+2025-08-19 15:33:57,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (44, 'CS101', 'A');",0
+2025-08-19 15:33:58,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=200;,0
+2025-08-19 15:33:59,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=74;,0
+2025-08-19 15:34:00,teacher,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:01,student,192.168.1.10,SELECT * FROM students WHERE id=438;,0
+2025-08-19 15:34:02,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=25;",0
+2025-08-19 15:34:03,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=65;,0
+2025-08-19 15:34:04,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (493, 'CS101', 'A');",0
+2025-08-19 15:34:05,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=34;,0
+2025-08-19 15:34:06,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=16;,0
+2025-08-19 15:34:07,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=447;,0
+2025-08-19 15:34:08,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (253, 'CS101', 'A');",0
+2025-08-19 15:34:09,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:34:10,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (182, 'CS101', 'A');",0
+2025-08-19 15:34:11,student,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:34:12,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (404, 'CS101', 'A');",0
+2025-08-19 15:34:13,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=144;,0
+2025-08-19 15:34:14,student,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:15,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=407;,0
+2025-08-19 15:34:16,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (282, 'CS101', 'A');",0
+2025-08-19 15:34:17,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=232;",0
+2025-08-19 15:34:18,teacher,10.0.0.25,SELECT * FROM students WHERE id=160;,0
+2025-08-19 15:34:19,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:34:20,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=263;,0
+2025-08-19 15:34:21,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (91, 'CS101', 'A');",0
+2025-08-19 15:34:22,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=351;,0
+2025-08-19 15:34:23,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=441;",0
+2025-08-19 15:34:24,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=352;,0
+2025-08-19 15:34:25,admin,192.168.1.10,SELECT * FROM students WHERE id=38;,0
+2025-08-19 15:34:26,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (135, 'CS101', 'A');",0
+2025-08-19 15:34:27,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=415;,0
+2025-08-19 15:34:28,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=441;",0
+2025-08-19 15:34:29,teacher,10.0.0.25,SELECT * FROM students WHERE id=219;,0
+2025-08-19 15:34:30,student,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:34:31,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (369, 'CS101', 'A');",0
+2025-08-19 15:34:32,admin,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:33,student,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:34,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=435;,0
+2025-08-19 15:34:35,teacher,10.0.0.25,SELECT * FROM students WHERE id=288;,0
+2025-08-19 15:34:36,student,10.0.0.25,SELECT * FROM students WHERE id=330;,0
+2025-08-19 15:34:37,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (444, 'CS101', 'A');",0
+2025-08-19 15:34:38,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=490;,0
+2025-08-19 15:34:39,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=365;",0
+2025-08-19 15:34:40,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=264;",0
+2025-08-19 15:34:41,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:34:42,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=242;",0
+2025-08-19 15:34:43,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=50;",0
+2025-08-19 15:34:44,student,192.168.1.10,SELECT * FROM students WHERE id=229;,0
+2025-08-19 15:34:45,admin,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:34:46,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=99;,0
+2025-08-19 15:34:47,student,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:48,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=54;,0
+2025-08-19 15:34:49,admin,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:50,student,192.168.1.5,SELECT * FROM students WHERE id=232;,0
+2025-08-19 15:34:51,teacher,192.168.1.10,SELECT * FROM students WHERE id=461;,0
+2025-08-19 15:34:52,teacher,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:34:53,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=244;,0
+2025-08-19 15:34:54,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:34:55,student,10.0.0.25,SELECT * FROM students WHERE id=197;,0
+2025-08-19 15:34:56,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=181;,0
+2025-08-19 15:34:57,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (192, 'CS101', 'A');",0
+2025-08-19 15:34:58,teacher,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:34:59,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=148;,0
+2025-08-19 15:35:00,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:35:01,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=420;",0
+2025-08-19 15:35:02,student,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:35:03,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=436;,0
+2025-08-19 15:35:04,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=386;,0
+2025-08-19 15:35:05,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=277;,0
+2025-08-19 15:35:06,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=246;",0
+2025-08-19 15:35:07,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (25, 'CS101', 'A');",0
+2025-08-19 15:35:08,teacher,192.168.1.10,SELECT * FROM students WHERE id=2;,0
+2025-08-19 15:35:09,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (471, 'CS101', 'A');",0
+2025-08-19 15:35:10,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=124;,0
+2025-08-19 15:35:11,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (137, 'CS101', 'A');",0
+2025-08-19 15:35:12,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=317;,0
+2025-08-19 15:35:13,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=45;,0
+2025-08-19 15:35:14,admin,192.168.1.5,SELECT * FROM students WHERE id=443;,0
+2025-08-19 15:35:15,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (469, 'CS101', 'A');",0
+2025-08-19 15:35:16,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=408;,0
+2025-08-19 15:35:17,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=416;,0
+2025-08-19 15:35:18,student,10.0.0.25,SELECT * FROM students WHERE id=5;,0
+2025-08-19 15:35:19,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=230;",0
+2025-08-19 15:35:20,student,192.168.1.5,SELECT * FROM students WHERE id=365;,0
+2025-08-19 15:35:21,student,192.168.1.5,SELECT * FROM students WHERE id=435;,0
+2025-08-19 15:35:22,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=407;",0
+2025-08-19 15:35:23,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=167;,0
+2025-08-19 15:35:24,admin,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:35:25,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=383;",0
+2025-08-19 15:35:26,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=457;,0
+2025-08-19 15:35:27,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:35:28,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=40;,0
+2025-08-19 15:35:29,teacher,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:35:30,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (223, 'CS101', 'A');",0
+2025-08-19 15:35:31,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=71;,0
+2025-08-19 15:35:32,student,192.168.1.10,SELECT * FROM students WHERE id=48;,0
+2025-08-19 15:35:33,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (402, 'CS101', 'A');",0
+2025-08-19 15:35:34,student,10.0.0.25,SELECT * FROM students WHERE id=249;,0
+2025-08-19 15:35:35,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=53;,0
+2025-08-19 15:35:36,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=219;,0
+2025-08-19 15:35:37,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (223, 'CS101', 'A');",0
+2025-08-19 15:35:38,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=229;",0
+2025-08-19 15:35:39,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=84;,0
+2025-08-19 15:35:40,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=207;",0
+2025-08-19 15:35:41,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=212;",0
+2025-08-19 15:35:42,student,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:35:43,teacher,192.168.1.5,SELECT * FROM students WHERE id=130;,0
+2025-08-19 15:35:44,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=170;",0
+2025-08-19 15:35:45,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=488;",0
+2025-08-19 15:35:46,teacher,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:35:47,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (34, 'CS101', 'A');",0
+2025-08-19 15:35:48,admin,192.168.1.5,SELECT * FROM students WHERE id=90;,0
+2025-08-19 15:35:49,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (396, 'CS101', 'A');",0
+2025-08-19 15:35:50,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=254;",0
+2025-08-19 15:35:51,admin,192.168.1.10,SELECT * FROM students WHERE id=173;,0
+2025-08-19 15:35:52,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=68;,0
+2025-08-19 15:35:53,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (251, 'CS101', 'A');",0
+2025-08-19 15:35:54,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (164, 'CS101', 'A');",0
+2025-08-19 15:35:55,admin,192.168.1.10,SELECT * FROM students WHERE id=400;,0
+2025-08-19 15:35:56,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=89;",0
+2025-08-19 15:35:57,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=345;,0
+2025-08-19 15:35:58,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=76;,0
+2025-08-19 15:35:59,admin,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:36:00,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=60;,0
+2025-08-19 15:36:01,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (173, 'CS101', 'A');",0
+2025-08-19 15:36:02,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (299, 'CS101', 'A');",0
+2025-08-19 15:36:03,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=129;,0
+2025-08-19 15:36:04,admin,10.0.0.25,SELECT * FROM students WHERE id=212;,0
+2025-08-19 15:36:05,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=145;,0
+2025-08-19 15:36:06,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=343;,0
+2025-08-19 15:36:07,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=413;,0
+2025-08-19 15:36:08,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=140;",0
+2025-08-19 15:36:09,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=73;,0
+2025-08-19 15:36:10,student,10.0.0.25,SELECT * FROM students WHERE id=189;,0
+2025-08-19 15:36:11,student,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:36:12,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=189;",0
+2025-08-19 15:36:13,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=147;,0
+2025-08-19 15:36:14,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=376;,0
+2025-08-19 15:36:15,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:36:16,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (424, 'CS101', 'A');",0
+2025-08-19 15:36:17,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=317;,0
+2025-08-19 15:36:18,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=451;,0
+2025-08-19 15:36:19,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=53;,0
+2025-08-19 15:36:20,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=174;",0
+2025-08-19 15:36:21,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=463;",0
+2025-08-19 15:36:22,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=236;",0
+2025-08-19 15:36:23,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=331;,0
+2025-08-19 15:36:24,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (462, 'CS101', 'A');",0
+2025-08-19 15:36:25,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:36:26,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=458;",0
+2025-08-19 15:36:27,teacher,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:36:28,teacher,192.168.1.5,SELECT * FROM students WHERE id=427;,0
+2025-08-19 15:36:29,admin,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:36:30,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=304;",0
+2025-08-19 15:36:31,teacher,10.0.0.25,SELECT * FROM students WHERE id=500;,0
+2025-08-19 15:36:32,admin,192.168.1.5,SELECT * FROM students WHERE id=8;,0
+2025-08-19 15:36:33,student,192.168.1.5,SELECT * FROM students WHERE id=337;,0
+2025-08-19 15:36:34,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=330;,0
+2025-08-19 15:36:35,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=255;",0
+2025-08-19 15:36:36,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (416, 'CS101', 'A');",0
+2025-08-19 15:36:37,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (335, 'CS101', 'A');",0
+2025-08-19 15:36:38,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=466;,0
+2025-08-19 15:36:39,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=427;,0
+2025-08-19 15:36:40,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=310;,0
+2025-08-19 15:36:41,student,192.168.1.5,SELECT * FROM students WHERE id=36;,0
+2025-08-19 15:36:42,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=274;,0
+2025-08-19 15:36:43,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=438;,0
+2025-08-19 15:36:44,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (397, 'CS101', 'A');",0
+2025-08-19 15:36:45,teacher,192.168.1.5,SELECT * FROM students WHERE id=181;,0
+2025-08-19 15:36:46,admin,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:36:47,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:36:48,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=75;,0
+2025-08-19 15:36:49,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=139;,0
+2025-08-19 15:36:50,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (223, 'CS101', 'A');",0
+2025-08-19 15:36:51,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (404, 'CS101', 'A');",0
+2025-08-19 15:36:52,student,10.0.0.25,SELECT * FROM students WHERE id=123;,0
+2025-08-19 15:36:53,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=221;,0
+2025-08-19 15:36:54,student,192.168.1.10,SELECT * FROM students WHERE id=210;,0
+2025-08-19 15:36:55,student,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:36:56,student,10.0.0.25,SELECT * FROM students WHERE id=189;,0
+2025-08-19 15:36:57,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=81;,0
+2025-08-19 15:36:58,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (32, 'CS101', 'A');",0
+2025-08-19 15:36:59,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=260;,0
+2025-08-19 15:37:00,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:37:01,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (496, 'CS101', 'A');",0
+2025-08-19 15:37:02,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=56;,0
+2025-08-19 15:37:03,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=277;,0
+2025-08-19 15:37:04,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (457, 'CS101', 'A');",0
+2025-08-19 15:37:05,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:37:06,student,192.168.1.10,SELECT * FROM students WHERE id=176;,0
+2025-08-19 15:37:07,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=75;,0
+2025-08-19 15:37:08,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=301;",0
+2025-08-19 15:37:09,admin,192.168.1.5,SELECT * FROM students WHERE id=161;,0
+2025-08-19 15:37:10,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=3;",0
+2025-08-19 15:37:11,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=382;",0
+2025-08-19 15:37:12,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=159;,0
+2025-08-19 15:37:13,student,192.168.1.5,SELECT * FROM students WHERE id=56;,0
+2025-08-19 15:37:14,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (171, 'CS101', 'A');",0
+2025-08-19 15:37:15,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=33;,0
+2025-08-19 15:37:16,student,10.0.0.25,SELECT * FROM students WHERE id=444;,0
+2025-08-19 15:37:17,student,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:37:18,student,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:37:19,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (125, 'CS101', 'A');",0
+2025-08-19 15:37:20,teacher,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:37:21,teacher,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:37:22,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=448;",0
+2025-08-19 15:37:23,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=465;,0
+2025-08-19 15:37:24,teacher,192.168.1.10,SELECT * FROM students WHERE id=463;,0
+2025-08-19 15:37:25,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=183;",0
+2025-08-19 15:37:26,teacher,192.168.1.10,SELECT * FROM students WHERE id=422;,0
+2025-08-19 15:37:27,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=413;",0
+2025-08-19 15:37:28,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=27;,0
+2025-08-19 15:37:29,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (51, 'CS101', 'A');",0
+2025-08-19 15:37:30,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=397;,0
+2025-08-19 15:37:31,admin,10.0.0.25,SELECT * FROM students WHERE id=343;,0
+2025-08-19 15:37:32,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=441;",0
+2025-08-19 15:37:33,teacher,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:37:34,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=64;,0
+2025-08-19 15:37:35,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (144, 'CS101', 'A');",0
+2025-08-19 15:37:36,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (182, 'CS101', 'A');",0
+2025-08-19 15:37:37,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (382, 'CS101', 'A');",0
+2025-08-19 15:37:38,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=413;,0
+2025-08-19 15:37:39,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=87;,0
+2025-08-19 15:37:40,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=157;,0
+2025-08-19 15:37:41,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:37:42,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:37:43,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (435, 'CS101', 'A');",0
+2025-08-19 15:37:44,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:37:45,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:37:46,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=235;",0
+2025-08-19 15:37:47,admin,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:37:48,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (398, 'CS101', 'A');",0
+2025-08-19 15:37:49,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:37:50,teacher,10.0.0.25,SELECT * FROM students WHERE id=2;,0
+2025-08-19 15:37:51,admin,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:37:52,student,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:37:53,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=114;,0
+2025-08-19 15:37:54,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=327;,0
+2025-08-19 15:37:55,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (139, 'CS101', 'A');",0
+2025-08-19 15:37:56,admin,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:37:57,student,192.168.1.10,SELECT * FROM students WHERE id=41;,0
+2025-08-19 15:37:58,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=186;,0
+2025-08-19 15:37:59,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=114;",0
+2025-08-19 15:38:00,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (457, 'CS101', 'A');",0
+2025-08-19 15:38:01,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:38:02,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=388;",0
+2025-08-19 15:38:03,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=298;",0
+2025-08-19 15:38:04,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:38:05,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=299;,0
+2025-08-19 15:38:06,teacher,192.168.1.5,SELECT * FROM students WHERE id=186;,0
+2025-08-19 15:38:07,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=368;,0
+2025-08-19 15:38:08,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=137;,0
+2025-08-19 15:38:09,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=15;,0
+2025-08-19 15:38:10,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=190;,0
+2025-08-19 15:38:11,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=245;",0
+2025-08-19 15:38:12,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=389;,0
+2025-08-19 15:38:13,student,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:38:14,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=385;",0
+2025-08-19 15:38:15,admin,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:38:16,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:38:17,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=182;,0
+2025-08-19 15:38:18,student,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:38:19,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=292;",0
+2025-08-19 15:38:20,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=102;,0
+2025-08-19 15:38:21,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=129;,0
+2025-08-19 15:38:22,teacher,192.168.1.10,SELECT * FROM students WHERE id=11;,0
+2025-08-19 15:38:23,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (140, 'CS101', 'A');",0
+2025-08-19 15:38:24,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=170;",0
+2025-08-19 15:38:25,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=459;,0
+2025-08-19 15:38:26,admin,192.168.1.5,SELECT * FROM students WHERE id=113;,0
+2025-08-19 15:38:27,student,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:38:28,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=242;",0
+2025-08-19 15:38:29,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=115;,0
+2025-08-19 15:38:30,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=92;,0
+2025-08-19 15:38:31,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=344;,0
+2025-08-19 15:38:32,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (74, 'CS101', 'A');",0
+2025-08-19 15:38:33,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=56;,0
+2025-08-19 15:38:34,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=460;,0
+2025-08-19 15:38:35,admin,192.168.1.5,SELECT * FROM students WHERE id=276;,0
+2025-08-19 15:38:36,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=452;,0
+2025-08-19 15:38:37,student,10.0.0.25,SELECT * FROM students WHERE id=108;,0
+2025-08-19 15:38:38,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (149, 'CS101', 'A');",0
+2025-08-19 15:38:39,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=472;",0
+2025-08-19 15:38:40,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=150;,0
+2025-08-19 15:38:41,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (172, 'CS101', 'A');",0
+2025-08-19 15:38:42,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=142;,0
+2025-08-19 15:38:43,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=495;",0
+2025-08-19 15:38:44,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=110;,0
+2025-08-19 15:38:45,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=98;,0
+2025-08-19 15:38:46,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (205, 'CS101', 'A');",0
+2025-08-19 15:38:47,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (290, 'CS101', 'A');",0
+2025-08-19 15:38:48,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=188;,0
+2025-08-19 15:38:49,student,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:38:50,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (69, 'CS101', 'A');",0
+2025-08-19 15:38:51,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=133;,0
+2025-08-19 15:38:52,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=31;,0
+2025-08-19 15:38:53,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=1;",0
+2025-08-19 15:38:54,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (188, 'CS101', 'A');",0
+2025-08-19 15:38:55,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=170;",0
+2025-08-19 15:38:56,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=232;,0
+2025-08-19 15:38:57,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (15, 'CS101', 'A');",0
+2025-08-19 15:38:58,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (97, 'CS101', 'A');",0
+2025-08-19 15:38:59,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (265, 'CS101', 'A');",0
+2025-08-19 15:39:00,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (340, 'CS101', 'A');",0
+2025-08-19 15:39:01,teacher,192.168.1.10,SELECT * FROM students WHERE id=140;,0
+2025-08-19 15:39:02,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=178;",0
+2025-08-19 15:39:03,admin,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:39:04,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=208;",0
+2025-08-19 15:39:05,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=244;,0
+2025-08-19 15:39:06,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=282;,0
+2025-08-19 15:39:07,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=134;,0
+2025-08-19 15:39:08,teacher,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:39:09,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=465;,0
+2025-08-19 15:39:10,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=203;,0
+2025-08-19 15:39:11,teacher,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:39:12,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=51;,0
+2025-08-19 15:39:13,student,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:39:14,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=222;,0
+2025-08-19 15:39:15,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=444;,0
+2025-08-19 15:39:16,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=380;,0
+2025-08-19 15:39:17,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=117;",0
+2025-08-19 15:39:18,admin,10.0.0.25,SELECT * FROM students WHERE id=329;,0
+2025-08-19 15:39:19,admin,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:39:20,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=410;,0
+2025-08-19 15:39:21,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=395;,0
+2025-08-19 15:39:22,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=323;,0
+2025-08-19 15:39:23,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=82;,0
+2025-08-19 15:39:24,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (23, 'CS101', 'A');",0
+2025-08-19 15:39:25,admin,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:39:26,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=375;",0
+2025-08-19 15:39:27,student,192.168.1.10,SELECT * FROM students WHERE id=393;,0
+2025-08-19 15:39:28,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (83, 'CS101', 'A');",0
+2025-08-19 15:39:29,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (481, 'CS101', 'A');",0
+2025-08-19 15:39:30,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=423;,0
+2025-08-19 15:39:31,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=124;",0
+2025-08-19 15:39:32,admin,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:39:33,student,192.168.1.10,SELECT * FROM students WHERE id=131;,0
+2025-08-19 15:39:34,teacher,192.168.1.10,SELECT * FROM students WHERE id=415;,0
+2025-08-19 15:39:35,admin,192.168.1.10,SELECT * FROM students WHERE id=234;,0
+2025-08-19 15:39:36,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=480;",0
+2025-08-19 15:39:37,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (68, 'CS101', 'A');",0
+2025-08-19 15:39:38,admin,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:39:39,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=448;",0
+2025-08-19 15:39:40,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=337;",0
+2025-08-19 15:39:41,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:39:42,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=115;",0
+2025-08-19 15:39:43,student,10.0.0.25,SELECT * FROM students WHERE id=71;,0
+2025-08-19 15:39:44,teacher,10.0.0.25,SELECT * FROM students WHERE id=350;,0
+2025-08-19 15:39:45,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=30;,0
+2025-08-19 15:39:46,teacher,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:39:47,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=447;,0
+2025-08-19 15:39:48,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=179;,0
+2025-08-19 15:39:49,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=118;",0
+2025-08-19 15:39:50,student,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:39:51,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=142;",0
+2025-08-19 15:39:52,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=140;",0
+2025-08-19 15:39:53,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=129;",0
+2025-08-19 15:39:54,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (284, 'CS101', 'A');",0
+2025-08-19 15:39:55,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=392;,0
+2025-08-19 15:39:56,student,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:39:57,admin,192.168.1.10,SELECT * FROM students WHERE id=183;,0
+2025-08-19 15:39:58,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:39:59,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=44;,0
+2025-08-19 15:40:00,teacher,192.168.1.5,SELECT * FROM students WHERE id=201;,0
+2025-08-19 15:40:01,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (47, 'CS101', 'A');",0
+2025-08-19 15:40:02,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:40:03,student,192.168.1.5,SELECT * FROM students WHERE id=313;,0
+2025-08-19 15:40:04,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=390;,0
+2025-08-19 15:40:05,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:40:06,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:40:07,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=199;,0
+2025-08-19 15:40:08,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (159, 'CS101', 'A');",0
+2025-08-19 15:40:09,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=326;,0
+2025-08-19 15:40:10,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=132;,0
+2025-08-19 15:40:11,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=124;,0
+2025-08-19 15:40:12,teacher,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:40:13,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=256;,0
+2025-08-19 15:40:14,student,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:40:15,student,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:40:16,teacher,192.168.1.10,SELECT * FROM students WHERE id=465;,0
+2025-08-19 15:40:17,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=176;,0
+2025-08-19 15:40:18,admin,192.168.1.10,SELECT * FROM students WHERE id=404;,0
+2025-08-19 15:40:19,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:40:20,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=294;,0
+2025-08-19 15:40:21,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=124;,0
+2025-08-19 15:40:22,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (244, 'CS101', 'A');",0
+2025-08-19 15:40:23,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=263;,0
+2025-08-19 15:40:24,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=357;",0
+2025-08-19 15:40:25,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=30;",0
+2025-08-19 15:40:26,student,192.168.1.10,SELECT * FROM students WHERE id=467;,0
+2025-08-19 15:40:27,admin,10.0.0.25,SELECT * FROM students WHERE id=396;,0
+2025-08-19 15:40:28,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=182;,0
+2025-08-19 15:40:29,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=110;,0
+2025-08-19 15:40:30,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:40:31,teacher,192.168.1.5,SELECT * FROM students WHERE id=408;,0
+2025-08-19 15:40:32,admin,192.168.1.10,SELECT * FROM students WHERE id=289;,0
+2025-08-19 15:40:33,teacher,192.168.1.5,SELECT * FROM students WHERE id=210;,0
+2025-08-19 15:40:34,student,192.168.1.5,SELECT * FROM students WHERE id=456;,0
+2025-08-19 15:40:35,teacher,192.168.1.10,SELECT * FROM students WHERE id=485;,0
+2025-08-19 15:40:36,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=267;,0
+2025-08-19 15:40:37,student,10.0.0.25,SELECT * FROM students WHERE id=408;,0
+2025-08-19 15:40:38,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=472;,0
+2025-08-19 15:40:39,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=472;,0
+2025-08-19 15:40:40,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=422;,0
+2025-08-19 15:40:41,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=150;,0
+2025-08-19 15:40:42,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=246;,0
+2025-08-19 15:40:43,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=405;",0
+2025-08-19 15:40:44,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (6, 'CS101', 'A');",0
+2025-08-19 15:40:45,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=58;,0
+2025-08-19 15:40:46,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=56;,0
+2025-08-19 15:40:47,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=104;",0
+2025-08-19 15:40:48,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=8;",0
+2025-08-19 15:40:49,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (253, 'CS101', 'A');",0
+2025-08-19 15:40:50,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=221;,0
+2025-08-19 15:40:51,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:40:52,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=121;",0
+2025-08-19 15:40:53,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=168;,0
+2025-08-19 15:40:54,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (80, 'CS101', 'A');",0
+2025-08-19 15:40:55,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (444, 'CS101', 'A');",0
+2025-08-19 15:40:56,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (389, 'CS101', 'A');",0
+2025-08-19 15:40:57,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (189, 'CS101', 'A');",0
+2025-08-19 15:40:58,student,10.0.0.25,SELECT * FROM students WHERE id=418;,0
+2025-08-19 15:40:59,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=91;,0
+2025-08-19 15:41:00,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=72;",0
+2025-08-19 15:41:01,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=36;,0
+2025-08-19 15:41:02,student,10.0.0.25,SELECT * FROM students WHERE id=243;,0
+2025-08-19 15:41:03,teacher,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:41:04,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=344;,0
+2025-08-19 15:41:05,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=159;,0
+2025-08-19 15:41:06,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=30;,0
+2025-08-19 15:41:07,student,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:41:08,teacher,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:41:09,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (310, 'CS101', 'A');",0
+2025-08-19 15:41:10,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (279, 'CS101', 'A');",0
+2025-08-19 15:41:11,teacher,192.168.1.10,SELECT * FROM students WHERE id=377;,0
+2025-08-19 15:41:12,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=306;,0
+2025-08-19 15:41:13,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=423;,0
+2025-08-19 15:41:14,teacher,10.0.0.25,SELECT * FROM students WHERE id=222;,0
+2025-08-19 15:41:15,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=115;,0
+2025-08-19 15:41:16,student,192.168.1.10,SELECT * FROM students WHERE id=144;,0
+2025-08-19 15:41:17,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (265, 'CS101', 'A');",0
+2025-08-19 15:41:18,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=457;,0
+2025-08-19 15:41:19,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=476;,0
+2025-08-19 15:41:20,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:41:21,admin,192.168.1.5,SELECT * FROM students WHERE id=176;,0
+2025-08-19 15:41:22,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:41:23,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (317, 'CS101', 'A');",0
+2025-08-19 15:41:24,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (58, 'CS101', 'A');",0
+2025-08-19 15:41:25,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=495;,0
+2025-08-19 15:41:26,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (374, 'CS101', 'A');",0
+2025-08-19 15:41:27,admin,192.168.1.5,SELECT * FROM students WHERE id=299;,0
+2025-08-19 15:41:28,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=432;",0
+2025-08-19 15:41:29,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (214, 'CS101', 'A');",0
+2025-08-19 15:41:30,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=429;,0
+2025-08-19 15:41:31,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (353, 'CS101', 'A');",0
+2025-08-19 15:41:32,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=17;,0
+2025-08-19 15:41:33,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (412, 'CS101', 'A');",0
+2025-08-19 15:41:34,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:41:35,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:41:36,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=460;",0
+2025-08-19 15:41:37,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=417;,0
+2025-08-19 15:41:38,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:41:39,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (117, 'CS101', 'A');",0
+2025-08-19 15:41:40,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=23;,0
+2025-08-19 15:41:41,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:41:42,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=269;,0
+2025-08-19 15:41:43,admin,10.0.0.25,SELECT * FROM students WHERE id=494;,0
+2025-08-19 15:41:44,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=396;,0
+2025-08-19 15:41:45,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (61, 'CS101', 'A');",0
+2025-08-19 15:41:46,student,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:41:47,admin,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:41:48,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=408;,0
+2025-08-19 15:41:49,student,10.0.0.25,SELECT * FROM students WHERE id=172;,0
+2025-08-19 15:41:50,admin,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:41:51,student,10.0.0.25,SELECT * FROM students WHERE id=200;,0
+2025-08-19 15:41:52,teacher,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:41:53,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=474;,0
+2025-08-19 15:41:54,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (96, 'CS101', 'A');",0
+2025-08-19 15:41:55,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=289;,0
+2025-08-19 15:41:56,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=312;,0
+2025-08-19 15:41:57,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=7;",0
+2025-08-19 15:41:58,teacher,10.0.0.25,SELECT * FROM students WHERE id=192;,0
+2025-08-19 15:41:59,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=434;,0
+2025-08-19 15:42:00,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=316;,0
+2025-08-19 15:42:01,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=484;,0
+2025-08-19 15:42:02,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=277;",0
+2025-08-19 15:42:03,admin,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:42:04,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=153;,0
+2025-08-19 15:42:05,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (144, 'CS101', 'A');",0
+2025-08-19 15:42:06,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=319;",0
+2025-08-19 15:42:07,teacher,192.168.1.10,SELECT * FROM students WHERE id=392;,0
+2025-08-19 15:42:08,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=340;,0
+2025-08-19 15:42:09,student,192.168.1.5,SELECT * FROM students WHERE id=47;,0
+2025-08-19 15:42:10,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=1;",0
+2025-08-19 15:42:11,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=217;",0
+2025-08-19 15:42:12,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (329, 'CS101', 'A');",0
+2025-08-19 15:42:13,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=206;",0
+2025-08-19 15:42:14,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=70;,0
+2025-08-19 15:42:15,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=284;",0
+2025-08-19 15:42:16,student,192.168.1.10,SELECT * FROM students WHERE id=314;,0
+2025-08-19 15:42:17,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=134;",0
+2025-08-19 15:42:18,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=491;,0
+2025-08-19 15:42:19,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (463, 'CS101', 'A');",0
+2025-08-19 15:42:20,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (133, 'CS101', 'A');",0
+2025-08-19 15:42:21,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=31;,0
+2025-08-19 15:42:22,admin,192.168.1.10,SELECT * FROM students WHERE id=404;,0
+2025-08-19 15:42:23,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (148, 'CS101', 'A');",0
+2025-08-19 15:42:24,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=438;,0
+2025-08-19 15:42:25,student,192.168.1.10,SELECT * FROM students WHERE id=421;,0
+2025-08-19 15:42:26,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (400, 'CS101', 'A');",0
+2025-08-19 15:42:27,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (397, 'CS101', 'A');",0
+2025-08-19 15:42:28,admin,192.168.1.5,SELECT * FROM students WHERE id=23;,0
+2025-08-19 15:42:29,teacher,192.168.1.5,SELECT * FROM students WHERE id=413;,0
+2025-08-19 15:42:30,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=144;,0
+2025-08-19 15:42:31,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=403;,0
+2025-08-19 15:42:32,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=18;",0
+2025-08-19 15:42:33,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=151;",0
+2025-08-19 15:42:34,teacher,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:42:35,student,192.168.1.10,SELECT * FROM students WHERE id=252;,0
+2025-08-19 15:42:36,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (358, 'CS101', 'A');",0
+2025-08-19 15:42:37,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=173;,0
+2025-08-19 15:42:38,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=14;,0
+2025-08-19 15:42:39,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=179;,0
+2025-08-19 15:42:40,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=116;,0
+2025-08-19 15:42:41,admin,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:42:42,student,192.168.1.10,SELECT * FROM students WHERE id=422;,0
+2025-08-19 15:42:43,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=452;,0
+2025-08-19 15:42:44,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=83;,0
+2025-08-19 15:42:45,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (350, 'CS101', 'A');",0
+2025-08-19 15:42:46,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=354;",0
+2025-08-19 15:42:47,student,192.168.1.10,SELECT * FROM students WHERE id=436;,0
+2025-08-19 15:42:48,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=259;,0
+2025-08-19 15:42:49,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (457, 'CS101', 'A');",0
+2025-08-19 15:42:50,admin,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:42:51,teacher,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:42:52,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=449;,0
+2025-08-19 15:42:53,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=140;",0
+2025-08-19 15:42:54,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=150;",0
+2025-08-19 15:42:55,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (340, 'CS101', 'A');",0
+2025-08-19 15:42:56,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=459;",0
+2025-08-19 15:42:57,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:42:58,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=357;,0
+2025-08-19 15:42:59,teacher,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:43:00,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=220;,0
+2025-08-19 15:43:01,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=427;",0
+2025-08-19 15:43:02,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:43:03,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=198;,0
+2025-08-19 15:43:04,admin,192.168.1.10,SELECT * FROM students WHERE id=150;,0
+2025-08-19 15:43:05,teacher,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:43:06,admin,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:43:07,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:43:08,student,10.0.0.25,SELECT * FROM students WHERE id=161;,0
+2025-08-19 15:43:09,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=256;,0
+2025-08-19 15:43:10,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=126;,0
+2025-08-19 15:43:11,teacher,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:43:12,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:43:13,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=339;,0
+2025-08-19 15:43:14,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:43:15,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=300;",0
+2025-08-19 15:43:16,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=500;,0
+2025-08-19 15:43:17,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=208;,0
+2025-08-19 15:43:18,student,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:43:19,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=426;,0
+2025-08-19 15:43:20,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=408;,0
+2025-08-19 15:43:21,teacher,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:43:22,student,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:43:23,admin,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:43:24,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:43:25,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=467;",0
+2025-08-19 15:43:26,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (210, 'CS101', 'A');",0
+2025-08-19 15:43:27,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=28;,0
+2025-08-19 15:43:28,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=425;,0
+2025-08-19 15:43:29,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=488;,0
+2025-08-19 15:43:30,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=194;,0
+2025-08-19 15:43:31,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=319;,0
+2025-08-19 15:43:32,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (264, 'CS101', 'A');",0
+2025-08-19 15:43:33,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=452;",0
+2025-08-19 15:43:34,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=155;,0
+2025-08-19 15:43:35,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:43:36,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:43:37,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:43:38,student,192.168.1.10,SELECT * FROM students WHERE id=101;,0
+2025-08-19 15:43:39,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (255, 'CS101', 'A');",0
+2025-08-19 15:43:40,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=296;,0
+2025-08-19 15:43:41,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=32;",0
+2025-08-19 15:43:42,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=227;,0
+2025-08-19 15:43:43,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=146;",0
+2025-08-19 15:43:44,student,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:43:45,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:43:46,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=408;,0
+2025-08-19 15:43:47,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=447;,0
+2025-08-19 15:43:48,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=43;,0
+2025-08-19 15:43:49,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=134;,0
+2025-08-19 15:43:50,teacher,192.168.1.5,SELECT * FROM students WHERE id=327;,0
+2025-08-19 15:43:51,teacher,10.0.0.25,SELECT * FROM students WHERE id=44;,0
+2025-08-19 15:43:52,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (343, 'CS101', 'A');",0
+2025-08-19 15:43:53,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (474, 'CS101', 'A');",0
+2025-08-19 15:43:54,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:43:55,teacher,192.168.1.5,SELECT * FROM students WHERE id=338;,0
+2025-08-19 15:43:56,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=332;,0
+2025-08-19 15:43:57,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:43:58,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:43:59,teacher,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:44:00,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=453;",0
+2025-08-19 15:44:01,student,192.168.1.5,SELECT * FROM students WHERE id=33;,0
+2025-08-19 15:44:02,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=117;",0
+2025-08-19 15:44:03,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=357;",0
+2025-08-19 15:44:04,admin,192.168.1.5,SELECT * FROM students WHERE id=230;,0
+2025-08-19 15:44:05,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=229;,0
+2025-08-19 15:44:06,teacher,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:44:07,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=8;,0
+2025-08-19 15:44:08,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=2;,0
+2025-08-19 15:44:09,teacher,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:44:10,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (174, 'CS101', 'A');",0
+2025-08-19 15:44:11,admin,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:44:12,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=387;,0
+2025-08-19 15:44:13,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=82;,0
+2025-08-19 15:44:14,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (391, 'CS101', 'A');",0
+2025-08-19 15:44:15,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (134, 'CS101', 'A');",0
+2025-08-19 15:44:16,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (245, 'CS101', 'A');",0
+2025-08-19 15:44:17,teacher,192.168.1.10,SELECT * FROM students WHERE id=20;,0
+2025-08-19 15:44:18,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:44:19,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (299, 'CS101', 'A');",0
+2025-08-19 15:44:20,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (101, 'CS101', 'A');",0
+2025-08-19 15:44:21,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (253, 'CS101', 'A');",0
+2025-08-19 15:44:22,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:44:23,teacher,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:44:24,teacher,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:44:25,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=226;,0
+2025-08-19 15:44:26,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (125, 'CS101', 'A');",0
+2025-08-19 15:44:27,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=213;,0
+2025-08-19 15:44:28,student,10.0.0.25,SELECT * FROM students WHERE id=234;,0
+2025-08-19 15:44:29,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (106, 'CS101', 'A');",0
+2025-08-19 15:44:30,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (458, 'CS101', 'A');",0
+2025-08-19 15:44:31,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=156;",0
+2025-08-19 15:44:32,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=286;,0
+2025-08-19 15:44:33,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=243;,0
+2025-08-19 15:44:34,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=274;,0
+2025-08-19 15:44:35,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=420;,0
+2025-08-19 15:44:36,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (301, 'CS101', 'A');",0
+2025-08-19 15:44:37,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=335;,0
+2025-08-19 15:44:38,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=72;,0
+2025-08-19 15:44:39,admin,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:44:40,admin,10.0.0.25,SELECT * FROM students WHERE id=66;,0
+2025-08-19 15:44:41,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:44:42,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=7;",0
+2025-08-19 15:44:43,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=251;,0
+2025-08-19 15:44:44,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=428;,0
+2025-08-19 15:44:45,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=453;,0
+2025-08-19 15:44:46,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=132;,0
+2025-08-19 15:44:47,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=387;,0
+2025-08-19 15:44:48,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (498, 'CS101', 'A');",0
+2025-08-19 15:44:49,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:44:50,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=57;,0
+2025-08-19 15:44:51,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=481;,0
+2025-08-19 15:44:52,student,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:44:53,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=133;",0
+2025-08-19 15:44:54,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=300;,0
+2025-08-19 15:44:55,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=113;",0
+2025-08-19 15:44:56,student,192.168.1.5,SELECT * FROM students WHERE id=405;,0
+2025-08-19 15:44:57,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=494;,0
+2025-08-19 15:44:58,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (146, 'CS101', 'A');",0
+2025-08-19 15:44:59,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:45:00,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (168, 'CS101', 'A');",0
+2025-08-19 15:45:01,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=311;",0
+2025-08-19 15:45:02,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (434, 'CS101', 'A');",0
+2025-08-19 15:45:03,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=124;,0
+2025-08-19 15:45:04,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (66, 'CS101', 'A');",0
+2025-08-19 15:45:05,student,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:45:06,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (108, 'CS101', 'A');",0
+2025-08-19 15:45:07,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=29;",0
+2025-08-19 15:45:08,teacher,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:45:09,teacher,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:45:10,teacher,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:45:11,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=223;,0
+2025-08-19 15:45:12,admin,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:45:13,teacher,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:45:14,teacher,192.168.1.10,SELECT * FROM students WHERE id=311;,0
+2025-08-19 15:45:15,student,192.168.1.10,SELECT * FROM students WHERE id=399;,0
+2025-08-19 15:45:16,student,192.168.1.10,SELECT * FROM students WHERE id=68;,0
+2025-08-19 15:45:17,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (449, 'CS101', 'A');",0
+2025-08-19 15:45:18,student,192.168.1.10,SELECT * FROM students WHERE id=272;,0
+2025-08-19 15:45:19,student,192.168.1.10,SELECT * FROM students WHERE id=194;,0
+2025-08-19 15:45:20,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=125;",0
+2025-08-19 15:45:21,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=341;",0
+2025-08-19 15:45:22,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (492, 'CS101', 'A');",0
+2025-08-19 15:45:23,student,192.168.1.10,SELECT * FROM students WHERE id=293;,0
+2025-08-19 15:45:24,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (265, 'CS101', 'A');",0
+2025-08-19 15:45:25,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=267;",0
+2025-08-19 15:45:26,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=125;,0
+2025-08-19 15:45:27,student,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:45:28,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=62;,0
+2025-08-19 15:45:29,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=277;,0
+2025-08-19 15:45:30,admin,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:45:31,teacher,192.168.1.10,SELECT * FROM students WHERE id=164;,0
+2025-08-19 15:45:32,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=390;",0
+2025-08-19 15:45:33,admin,10.0.0.25,SELECT * FROM students WHERE id=186;,0
+2025-08-19 15:45:34,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=466;,0
+2025-08-19 15:45:35,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (63, 'CS101', 'A');",0
+2025-08-19 15:45:36,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (89, 'CS101', 'A');",0
+2025-08-19 15:45:37,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=49;",0
+2025-08-19 15:45:38,teacher,192.168.1.10,SELECT * FROM students WHERE id=270;,0
+2025-08-19 15:45:39,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:45:40,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=210;,0
+2025-08-19 15:45:41,teacher,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:45:42,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (452, 'CS101', 'A');",0
+2025-08-19 15:45:43,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:45:44,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=397;",0
+2025-08-19 15:45:45,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=47;",0
+2025-08-19 15:45:46,admin,10.0.0.25,SELECT * FROM students WHERE id=277;,0
+2025-08-19 15:45:47,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=362;,0
+2025-08-19 15:45:48,student,10.0.0.25,SELECT * FROM students WHERE id=16;,0
+2025-08-19 15:45:49,teacher,192.168.1.5,SELECT * FROM students WHERE id=98;,0
+2025-08-19 15:45:50,teacher,10.0.0.25,SELECT * FROM students WHERE id=97;,0
+2025-08-19 15:45:51,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=473;,0
+2025-08-19 15:45:52,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (311, 'CS101', 'A');",0
+2025-08-19 15:45:53,student,10.0.0.25,SELECT * FROM students WHERE id=280;,0
+2025-08-19 15:45:54,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=274;,0
+2025-08-19 15:45:55,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=115;",0
+2025-08-19 15:45:56,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=101;,0
+2025-08-19 15:45:57,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=116;",0
+2025-08-19 15:45:58,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=37;,0
+2025-08-19 15:45:59,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=259;,0
+2025-08-19 15:46:00,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (392, 'CS101', 'A');",0
+2025-08-19 15:46:01,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (383, 'CS101', 'A');",0
+2025-08-19 15:46:02,teacher,192.168.1.10,SELECT * FROM students WHERE id=58;,0
+2025-08-19 15:46:03,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=64;",0
+2025-08-19 15:46:04,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=170;,0
+2025-08-19 15:46:05,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=432;,0
+2025-08-19 15:46:06,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=82;,0
+2025-08-19 15:46:07,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=486;",0
+2025-08-19 15:46:08,admin,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:46:09,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (294, 'CS101', 'A');",0
+2025-08-19 15:46:10,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=175;,0
+2025-08-19 15:46:11,student,192.168.1.10,DELETE FROM temp_data WHERE record_id=76;,0
+2025-08-19 15:46:12,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (453, 'CS101', 'A');",0
+2025-08-19 15:46:13,student,192.168.1.10,SELECT * FROM students WHERE id=295;,0
+2025-08-19 15:46:14,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:46:15,admin,10.0.0.25,SELECT * FROM students WHERE id=391;,0
+2025-08-19 15:46:16,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (273, 'CS101', 'A');",0
+2025-08-19 15:46:17,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=11;,0
+2025-08-19 15:46:18,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=439;",0
+2025-08-19 15:46:19,teacher,192.168.1.5,SELECT * FROM secret_data;,1
+2025-08-19 15:46:20,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=164;,0
+2025-08-19 15:46:21,student,192.168.1.5,SELECT * FROM students WHERE id=354;,0
+2025-08-19 15:46:22,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=225;",0
+2025-08-19 15:46:23,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=12;,0
+2025-08-19 15:46:24,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=126;",0
+2025-08-19 15:46:25,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=99;",0
+2025-08-19 15:46:26,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=175;,0
+2025-08-19 15:46:27,student,192.168.1.10,SELECT * FROM students WHERE id=497;,0
+2025-08-19 15:46:28,admin,10.0.0.25,SELECT * FROM students WHERE id=109;,0
+2025-08-19 15:46:29,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=159;,0
+2025-08-19 15:46:30,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=396;,0
+2025-08-19 15:46:31,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=54;",0
+2025-08-19 15:46:32,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (79, 'CS101', 'A');",0
+2025-08-19 15:46:33,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=55;,0
+2025-08-19 15:46:34,student,192.168.1.5,DELETE FROM temp_data WHERE record_id=165;,0
+2025-08-19 15:46:35,teacher,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (499, 'CS101', 'A');",0
+2025-08-19 15:46:36,admin,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:46:37,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=350;,0
+2025-08-19 15:46:38,teacher,10.0.0.25,SELECT * FROM secret_data;,1
+2025-08-19 15:46:39,teacher,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=491;,0
+2025-08-19 15:46:40,admin,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:46:41,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=109;,0
+2025-08-19 15:46:42,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=263;,0
+2025-08-19 15:46:43,student,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:46:44,teacher,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:46:45,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=254;,0
+2025-08-19 15:46:46,student,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:46:47,teacher,192.168.1.10,SELECT * FROM students WHERE id=110;,0
+2025-08-19 15:46:48,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (25, 'CS101', 'A');",0
+2025-08-19 15:46:49,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=411;",0
+2025-08-19 15:46:50,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=35;,0
+2025-08-19 15:46:51,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:46:52,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=398;",0
+2025-08-19 15:46:53,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=136;,0
+2025-08-19 15:46:54,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=364;,0
+2025-08-19 15:46:55,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (400, 'CS101', 'A');",0
+2025-08-19 15:46:56,teacher,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:46:57,admin,192.168.1.10,SELECT * FROM students WHERE id=209;,0
+2025-08-19 15:46:58,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=496;,0
+2025-08-19 15:46:59,student,192.168.1.5,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:47:00,student,192.168.1.5,SELECT * FROM students WHERE id=147;,0
+2025-08-19 15:47:01,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=363;,0
+2025-08-19 15:47:02,teacher,192.168.1.10,SELECT * FROM students WHERE id=350;,0
+2025-08-19 15:47:03,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=293;",0
+2025-08-19 15:47:04,admin,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=401;",0
+2025-08-19 15:47:05,student,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:47:06,student,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:47:07,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=131;,0
+2025-08-19 15:47:08,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=240;,0
+2025-08-19 15:47:09,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=192;",0
+2025-08-19 15:47:10,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=62;,0
+2025-08-19 15:47:11,teacher,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:47:12,student,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:47:13,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=467;",0
+2025-08-19 15:47:14,student,192.168.1.10,SELECT * FROM students WHERE id=490;,0
+2025-08-19 15:47:15,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=83;",0
+2025-08-19 15:47:16,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=184;",0
+2025-08-19 15:47:17,admin,192.168.1.5,SELECT * FROM students WHERE id=246;,0
+2025-08-19 15:47:18,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=83;",0
+2025-08-19 15:47:19,admin,192.168.1.10,SELECT * FROM students WHERE id=50;,0
+2025-08-19 15:47:20,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (399, 'CS101', 'A');",0
+2025-08-19 15:47:21,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (448, 'CS101', 'A');",0
+2025-08-19 15:47:22,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=317;,0
+2025-08-19 15:47:23,admin,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:47:24,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=277;,0
+2025-08-19 15:47:25,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=384;",0
+2025-08-19 15:47:26,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=440;,0
+2025-08-19 15:47:27,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=226;",0
+2025-08-19 15:47:28,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=78;,0
+2025-08-19 15:47:29,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (473, 'CS101', 'A');",0
+2025-08-19 15:47:30,teacher,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=326;",0
+2025-08-19 15:47:31,admin,192.168.1.5,DELETE FROM temp_data WHERE record_id=163;,0
+2025-08-19 15:47:32,student,192.168.1.10,SELECT * FROM students WHERE id=125;,0
+2025-08-19 15:47:33,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=448;",0
+2025-08-19 15:47:34,student,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:47:35,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (469, 'CS101', 'A');",0
+2025-08-19 15:47:36,teacher,192.168.1.10,SELECT * FROM secret_data;,1
+2025-08-19 15:47:37,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (347, 'CS101', 'A');",0
+2025-08-19 15:47:38,teacher,10.0.0.25,SELECT * FROM students WHERE id=401;,0
+2025-08-19 15:47:39,student,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (287, 'CS101', 'A');",0
+2025-08-19 15:47:40,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=297;,0
+2025-08-19 15:47:41,teacher,10.0.0.25,SELECT * FROM students WHERE id=332;,0
+2025-08-19 15:47:42,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=298;,0
+2025-08-19 15:47:43,teacher,10.0.0.25,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:47:44,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=76;,0
+2025-08-19 15:47:45,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=111;,0
+2025-08-19 15:47:46,admin,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:47:47,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:47:48,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=146;,0
+2025-08-19 15:47:49,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=141;,0
+2025-08-19 15:47:50,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=208;,0
+2025-08-19 15:47:51,student,10.0.0.25,SELECT * FROM students WHERE id=14;,0
+2025-08-19 15:47:52,admin,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:47:53,student,192.168.1.5,SELECT * FROM students WHERE id=376;,0
+2025-08-19 15:47:54,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:47:55,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=301;,0
+2025-08-19 15:47:56,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=34;,0
+2025-08-19 15:47:57,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (90, 'CS101', 'A');",0
+2025-08-19 15:47:58,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=373;,0
+2025-08-19 15:47:59,teacher,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=367;,0
+2025-08-19 15:48:00,admin,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (102, 'CS101', 'A');",0
+2025-08-19 15:48:01,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=413;,0
+2025-08-19 15:48:02,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=206;",0
+2025-08-19 15:48:03,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:48:04,student,192.168.1.10,SELECT * FROM students WHERE id=121;,0
+2025-08-19 15:48:05,admin,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=166;",0
+2025-08-19 15:48:06,admin,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:48:07,teacher,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:48:08,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=125;",0
+2025-08-19 15:48:09,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=116;,0
+2025-08-19 15:48:10,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:48:11,student,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (292, 'CS101', 'A');",0
+2025-08-19 15:48:12,student,192.168.1.5,SELECT * FROM students WHERE id=44;,0
+2025-08-19 15:48:13,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (442, 'CS101', 'A');",0
+2025-08-19 15:48:14,teacher,10.0.0.25,SELECT * FROM students WHERE id=264;,0
+2025-08-19 15:48:15,admin,192.168.1.10,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:48:16,admin,192.168.1.10,SELECT * FROM students WHERE id=74;,0
+2025-08-19 15:48:17,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=17;,0
+2025-08-19 15:48:18,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=313;,0
+2025-08-19 15:48:19,student,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (64, 'CS101', 'A');",0
+2025-08-19 15:48:20,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=464;,0
+2025-08-19 15:48:21,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:48:22,admin,10.0.0.25,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:48:23,student,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:48:24,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (325, 'CS101', 'A');",0
+2025-08-19 15:48:25,teacher,192.168.1.10,SELECT * FROM students WHERE id=285;,0
+2025-08-19 15:48:26,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=160;",0
+2025-08-19 15:48:27,teacher,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:48:28,admin,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=136;,0
+2025-08-19 15:48:29,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=14;,0
+2025-08-19 15:48:30,student,10.0.0.25,UPDATE courses SET seats = seats - 1 WHERE course_id=79;,0
+2025-08-19 15:48:31,admin,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=350;",0
+2025-08-19 15:48:32,student,192.168.1.5,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:48:33,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=322;",0
+2025-08-19 15:48:34,teacher,192.168.1.10,SELECT * FROM students WHERE id=385;,0
+2025-08-19 15:48:35,teacher,192.168.1.10,SELECT * FROM students WHERE id=162;,0
+2025-08-19 15:48:36,student,192.168.1.10,DROP TABLE students;,1
+2025-08-19 15:48:37,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=179;,0
+2025-08-19 15:48:38,admin,10.0.0.25,DROP TABLE students;,1
+2025-08-19 15:48:39,admin,192.168.1.5,"INSERT INTO grades (student_id, course, grade) VALUES (77, 'CS101', 'A');",0
+2025-08-19 15:48:40,admin,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=484;,0
+2025-08-19 15:48:41,admin,192.168.1.5,UPDATE users SET password='hacked' WHERE username='admin';,1
+2025-08-19 15:48:42,teacher,10.0.0.25,"INSERT INTO grades (student_id, course, grade) VALUES (379, 'CS101', 'A');",0
+2025-08-19 15:48:43,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=146;,0
+2025-08-19 15:48:44,teacher,192.168.1.10,DELETE FROM temp_data WHERE record_id=357;,0
+2025-08-19 15:48:45,student,192.168.1.5,DROP TABLE students;,1
+2025-08-19 15:48:46,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=234;,0
+2025-08-19 15:48:47,teacher,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=26;",0
+2025-08-19 15:48:48,admin,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=106;,0
+2025-08-19 15:48:49,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=324;,0
+2025-08-19 15:48:50,teacher,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=435;",0
+2025-08-19 15:48:51,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=470;",0
+2025-08-19 15:48:52,teacher,192.168.1.10,"SELECT * FROM students UNION SELECT card_number, ssn FROM payments;",1
+2025-08-19 15:48:53,admin,10.0.0.25,SELECT * FROM students WHERE id=135;,0
+2025-08-19 15:48:54,student,192.168.1.10,UPDATE courses SET seats = seats - 1 WHERE course_id=441;,0
+2025-08-19 15:48:55,student,10.0.0.25,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:48:56,student,192.168.1.5,"SELECT name, grade FROM grades WHERE student_id=295;",0
+2025-08-19 15:48:57,teacher,10.0.0.25,DELETE FROM temp_data WHERE record_id=423;,0
+2025-08-19 15:48:58,teacher,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=127;,0
+2025-08-19 15:48:59,student,10.0.0.25,"SELECT name, grade FROM grades WHERE student_id=351;",0
+2025-08-19 15:49:00,admin,192.168.1.10,SELECT * FROM students WHERE id=236;,0
+2025-08-19 15:49:01,admin,192.168.1.10,SELECT * FROM users WHERE username='admin' OR '1'='1';,1
+2025-08-19 15:49:02,admin,192.168.1.10,DELETE FROM temp_data WHERE record_id=260;,0
+2025-08-19 15:49:03,student,192.168.1.5,UPDATE courses SET seats = seats - 1 WHERE course_id=409;,0
+2025-08-19 15:49:04,admin,10.0.0.25,DELETE FROM temp_data WHERE record_id=453;,0
+2025-08-19 15:49:05,student,10.0.0.25,DELETE FROM temp_data WHERE record_id=194;,0
+2025-08-19 15:49:06,admin,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (243, 'CS101', 'A');",0
+2025-08-19 15:49:07,student,192.168.1.10,"SELECT name, grade FROM grades WHERE student_id=202;",0
+2025-08-19 15:49:08,teacher,192.168.1.5,DELETE FROM temp_data WHERE record_id=486;,0
+2025-08-19 15:49:09,teacher,192.168.1.10,"INSERT INTO grades (student_id, course, grade) VALUES (344, 'CS101', 'A');",0
