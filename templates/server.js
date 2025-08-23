@@ -16,13 +16,13 @@ const supabase = createClient(
 );
 
 app.post("/register", async (req, res) => {
-  const { email, password } = req.body;
+  const { email,username, password } = req.body;
 
   try {
     // Insert user into 'users' table
     const { data, error } = await supabase
       .from("users")
-      .insert([{ email, password }]);
+      .insert([{ email,username, password }]);
 
     if (error) {
       return res.status(400).json({ message: error.message });

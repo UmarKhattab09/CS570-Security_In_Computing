@@ -17,6 +17,12 @@
             </label>
             <input type="text" id="email" name="first" 
                 placeholder="Enter your email" required>
+
+            <label for="username">
+                Username:
+            </label>
+            <input type="text" id="username" name="username" 
+                placeholder="Enter Your Username" required>
             
 
             <label for="password">
@@ -56,6 +62,7 @@ document.getElementById("registerForm").addEventListener("submit", async (e) => 
   e.preventDefault();
 
   let email = document.getElementById("email").value;
+  let username = document.getElementById("username").value
   let password = document.getElementById("password").value;
   let confirmPassword = document.getElementById("confirmPassword").value;
 //   let errorMsg = document.getElementById("errorMsg");
@@ -69,7 +76,7 @@ document.getElementById("registerForm").addEventListener("submit", async (e) => 
     let res = await fetch("http://localhost:3000/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email, password })
+      body: JSON.stringify({ email,username, password })
     });
 
     let data = await res.json();
