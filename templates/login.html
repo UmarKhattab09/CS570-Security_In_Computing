@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS560</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Database Manager</h1>
+        <h3>Enter your login credentials</h3>
+
+        <form action="" id ="loginForm">
+            <label for="first">
+                Email:
+            </label>
+            <input type="text" id="email" name="first" 
+                placeholder="Enter your email" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <p id="errorMsg" style="color:red;"></p>
+
+        
+        <p>Not registered?
+            <a href="register.html" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
+
+<script>
+document.getElementById("loginForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value; // Fixed typo: getElementById
+
+  let errorMsg = document.getElementById("errorMsg"); // you need an error message element
+
+  try {
+    let res = await fetch("http://localhost:3000/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password })
+    });
+
+    let data = await res.json();
+
+    if (!res.ok) {
+      errorMsg.textContent = data.message;
+    } else {
+      alert("✅ Login successful!");
+      window.location.href = "database.html"; // redirect after login
+    }
+
+  } catch (err) {
+    errorMsg.textContent = "Something went wrong!";
+  }
+});
+</script>

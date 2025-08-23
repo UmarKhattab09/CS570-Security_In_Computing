@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS560</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Register Portal</h1>
+        <h3>Enter your credentials</h3>
+
+        <form action="" id = "registerForm">
+            <label for="first">
+                Email:
+            </label>
+            <input type="text" id="email" name="first" 
+                placeholder="Enter your email" required>
+            
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <label for="confirmPassword">
+                Confirm Password:
+            </label>
+            <input type="password" id="confirmPassword" name="confirmPassword" 
+                placeholder="Confirm your Password" required>
+
+            
+
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <!-- Error message area -->
+        <p id="errorMsg" style="color:red;"></p>
+        <!-- <p>Not registered?
+            <a href="" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p> -->
+    </div>
+</body>
+</html>
+
+
+<script>
+document.getElementById("registerForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
+  let confirmPassword = document.getElementById("confirmPassword").value;
+//   let errorMsg = document.getElementById("errorMsg");
+
+  if (password !== confirmPassword) {
+    errorMsg.textContent = "Passwords do not match!";
+    return;
+  }
+
+  try {
+    let res = await fetch("http://localhost:3000/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password })
+    });
+
+    let data = await res.json();
+
+    if (!res.ok) {
+      errorMsg.textContent = data.message;
+    } else {
+      alert("✅ Registered successfully!");
+      window.location.href = "login.html"; // redirect to login page
+    }
+  } catch (err) {
+    errorMsg.textContent = "Something went wrong!";
+  }
+});
+</script>    
